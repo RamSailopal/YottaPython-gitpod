@@ -6,11 +6,6 @@
                         "type": "shell",
                         "command": "docker exec -it yottadb /opt/yottadb/current/ydb"
                 },
-        {
-                        "label": "Python",
-                        "type": "shell",
-                        "command": "./pythonexec.sh ${fileDirname}/${fileName}"
-                },
 
         ]
 }
