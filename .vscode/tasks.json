@@ -6,6 +6,11 @@
                         "type": "shell",
                         "command": "docker exec -it yottadb /opt/yottadb/current/ydb"
                 },
+                {
+                        "label": "mysql",
+                        "type": "shell",
+                        "command": "docker exec -it mysql mysql --user=root --password=present"
+                },
 
         ]
 }
