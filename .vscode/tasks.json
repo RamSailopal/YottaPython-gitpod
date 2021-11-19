@@ -9,7 +9,7 @@
         {
                         "label": "Python",
                         "type": "shell",
-                        "command": "docker exec -it yottadb python3"
+                        "command": "./pythonexec.sh ${fileDirname}/${fileName}"
                 },
 
         ]
