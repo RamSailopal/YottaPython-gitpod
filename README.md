@@ -6,9 +6,9 @@ A repo that allows Python development against YottaDB in Gitpod
 
 # Features
 
-1) Has a MUMPS extension for MUMPS code recognition
-2) Has the Code Runner extension enabled to allow MUMPS code to be compiled and executed from the Gitpod web IDE
-3) Terminal "drops you" directly into a YDB prompt
+1) Has a Python extension for Python code recognition
+2) Has the Code Runner extension enabled to allows python code to be executed from the Gitpod web IDE
+3) Task "drops you" directly into a YDB prompt
 
 # Gitpod
 
