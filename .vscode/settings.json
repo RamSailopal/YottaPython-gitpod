@@ -4,7 +4,7 @@
     },
     "code-runner.executorMap": {
         "mumps": "docker exec -i yottadb /bin/bash -c '/opt/yottadb/current/ydb <<< \"ZL \\\"$fileName\\\" D ^$fileNameWithoutExt\"'",
-        "python": "fullpath=${filedirName}/${fileName} && fullpath1=`echo $fullpath | sed 's#work#gerk#'` $$ echo fullpath1"
+        "python": "docker exec -it yottadb python3 /data/fileName"
     }
 }
 
